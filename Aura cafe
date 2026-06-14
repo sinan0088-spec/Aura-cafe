@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aura Cafe Menü</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#f5f5f5;
+}
+
+.header{
+    background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+    url('https://images.unsplash.com/photo-1509042239860-f550ce710b93');
+    background-size:cover;
+    background-position:center;
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+.header h1{
+    font-size:48px;
+    margin:0;
+}
+
+.header p{
+    font-size:20px;
+}
+
+.features{
+    margin-top:25px;
+    font-size:18px;
+    line-height:2;
+}
+
+.container{
+    width:90%;
+    max-width:900px;
+    margin:20px auto;
+}
+
+.card{
+    background:white;
+    border-radius:15px;
+    padding:20px;
+    margin-bottom:20px;
+    box-shadow:0 2px 10px rgba(0,0,0,.1);
+}
+
+h2{
+    margin-top:0;
+}
+
+.menu-item{
+    display:flex;
+    justify-content:space-between;
+    padding:12px 0;
+    border-bottom:1px solid #eee;
+}
+
+.menu-item:last-child{
+    border-bottom:none;
+}
+
+.price{
+    font-weight:bold;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+    <h1>AURA CAFE</h1>
+    <p>Kahvenin ve huzurun buluşma noktası</p>
+
+    <div class="features">
+        ☕ Özenle Hazırlanmış Kahveler<br>
+        🍰 Lezzetli Tatlılar<br>
+        🌿 Doğal ve Taze İçecekler<br>
+        🛋️ Sıcak ve Samimi Ortam
+    </div>
+</div>
+
+<div class="container">
+
+<div class="card">
+<h2>☕ Sıcak Kahveler</h2>
+
+<div class="menu-item"><span>Espresso</span><span class="price">85 TL</span></div>
+<div class="menu-item"><span>Double Espresso</span><span class="price">90 TL</span></div>
+<div class="menu-item"><span>Americano</span><span class="price">90 TL</span></div>
+<div class="menu-item"><span>Sütlü Americano</span><span class="price">90 TL</span></div>
+<div class="menu-item"><span>Cafe Latte</span><span class="price">90 TL</span></div>
+<div class="menu-item"><span>Cappuccino</span><span class="price">90 TL</span></div>
+<div class="menu-item"><span>Flat White</span><span class="price">90 TL</span></div>
+<div class="menu-item"><span>Sıcak Çikolata</span><span class="price">90 TL</span></div>
+<div class="menu-item"><span>Mocha</span><span class="price">90 TL</span></div>
+<div class="menu-item"><span>Türk Kahvesi</span><span class="price">50 TL</span></div>
+</div>
+
+<div class="card">
+<h2>🍵 Çaylar</h2>
+
+<div class="menu-item"><span>Bardakta Siyah Çay</span><span class="price">20 TL</span></div>
+<div class="menu-item"><span>Yeşil Çay</span><span class="price">30 TL</span></div>
+<div class="menu-item"><span>Fincan Çay</span><span class="price">35 TL</span></div>
+<div class="menu-item"><span>Ada Çayı</span><span class="price">30 TL</span></div>
+<div class="menu-item"><span>Oralet</span><span class="price">20 TL</span></div>
+</div>
+
+<div class="card">
+<h2>🍰 Tatlılar</h2>
+
+<div class="menu-item"><span>Tiramisu</span><span class="price">180 TL</span></div>
+<div class="menu-item"><span>Çikolatalı Pasta</span><span class="price">200 TL</span></div>
+<div class="menu-item"><span>Meyve Şöleni</span><span class="price">200 TL</span></div>
+<div class="menu-item"><span>Çikolatalı Magnolia</span><span class="price">200 TL</span></div>
+<div class="menu-item"><span>Çilekli Magnolia</span><span class="price">180 TL</span></div>
+<div class="menu-item"><span>Lotuslu Magnolia</span><span class="price">220 TL</span></div>
+<div class="menu-item"><span>İbiza</span><span class="price">200 TL</span></div>
+<div class="menu-item"><span>Rulo Pasta</span><span class="price">200 TL</span></div>
+<div class="menu-item"><span>Sufle</span><span class="price">120 TL</span></div>
+<div class="menu-item"><span>Islak Çikolatalı Brownie Kurabiye</span><span class="price">40 TL</span></div>
+<div class="menu-item"><span>Limonlu Cheesecake</span><span class="price">200 TL</span></div>
+<div class="menu-item"><span>Lotuslu Cheesecake</span><span class="price">220 TL</span></div>
+<div class="menu-item"><span>Antep Fıstıklı Cheesecake</span><span class="price">200 TL</span></div>
+</div>
+
+<div class="card">
+<h2>🥐 Poğaça Çeşitleri</h2>
+
+<div class="menu-item"><span>Sade Poğaça</span><span class="price">25 TL</span></div>
+<div class="menu-item"><span>Kaşarlı Poğaça</span><span class="price">25 TL</span></div>
+<div class="menu-item"><span>Peynirli Poğaça</span><span class="price">25 TL</span></div>
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aura Cafe Menü</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#f5f5f5;
+}
+
+.header{
+    background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+    url('https://images.unsplash.com/photo-1509042239860-f550ce710b93');
+    background-size:cover;
+    background-position:center;
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+.header h1{
+    font-size:48px;
+    margin:0;
+}
+
+.header p{
+    font-size:20px;
+}
+
+.features{
+    margin-top:25px;
+    font-size:18px;
+    line-height:2;
+}
+
+.container{
+    width:90%;
+    max-width:900px;
+    margin:20px auto;
+}
+
+.card{
+    background:white;
+    border-radius:15px;
+    padding:20px;
+    margin-bottom:20px;
+    box-shadow:0 2px 10px rgba(0,0,0,.1);
+}
+
+h2{
+    margin-top:0;
+}
+
+.menu-item{
+    display:flex;
+    justify-content:space-between;
+    padding:12px 0;
+    border-bottom:1px solid #eee;
+}
+
+.menu-item:last-child{
+    border-bottom:none;
+}
+
+.price{
+    font-weight:bold;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+    <h1>AURA CAFE</h1>
+    <p>Kahvenin ve huzurun buluşma noktası</p>
+
+    <div class="features">
+        ☕ Özenle Hazırlanmış Kahveler<br>
+        🍰 Lezzetli Tatlılar<br>
+        🌿 Doğal ve Taze İçecekler<br>
+        🛋️ Sıcak ve Samimi Ortam
+    </div>
+</div>
+
+<div class="container">
+
+<div class="card">
+<h2>☕ Sıcak Kahveler</h2>
+
+<div class="menu-item"><span>Espresso</span><span class="price">85 TL</span></div>
+<div class="menu-item"><span>Double Espresso</span><span class="price">90 TL</span></div>
+<div class="menu-item"><span>Americano</span><span class="price">90 TL</span></div>
+<div class="menu-item"><span>Sütlü Americano</span><span class="price">90 TL</span></div>
+<div class="menu-item"><span>Cafe Latte</span><span class="price">90 TL</span></div>
+<div class="menu-item"><span>Cappuccino</span><span class="price">90 TL</span></div>
+<div class="menu-item"><span>Flat White</span><span class="price">90 TL</span></div>
+<div class="menu-item"><span>Sıcak Çikolata</span><span class="price">90 TL</span></div>
+<div class="menu-item"><span>Mocha</span><span class="price">90 TL</span></div>
+<div class="menu-item"><span>Türk Kahvesi</span><span class="price">50 TL</span></div>
+</div>
+
+<div class="card">
+<h2>🍵 Çaylar</h2>
+
+<div class="menu-item"><span>Bardakta Siyah Çay</span><span class="price">20 TL</span></div>
+<div class="menu-item"><span>Yeşil Çay</span><span class="price">30 TL</span></div>
+<div class="menu-item"><span>Fincan Çay</span><span class="price">35 TL</span></div>
+<div class="menu-item"><span>Ada Çayı</span><span class="price">30 TL</span></div>
+<div class="menu-item"><span>Oralet</span><span class="price">20 TL</span></div>
+</div>
+
+<div class="card">
+<h2>🍰 Tatlılar</h2>
+
+<div class="menu-item"><span>Tiramisu</span><span class="price">180 TL</span></div>
+<div class="menu-item"><span>Çikolatalı Pasta</span><span class="price">200 TL</span></div>
+<div class="menu-item"><span>Meyve Şöleni</span><span class="price">200 TL</span></div>
+<div class="menu-item"><span>Çikolatalı Magnolia</span><span class="price">200 TL</span></div>
+<div class="menu-item"><span>Çilekli Magnolia</span><span class="price">180 TL</span></div>
+<div class="menu-item"><span>Lotuslu Magnolia</span><span class="price">220 TL</span></div>
+<div class="menu-item"><span>İbiza</span><span class="price">200 TL</span></div>
+<div class="menu-item"><span>Rulo Pasta</span><span class="price">200 TL</span></div>
+<div class="menu-item"><span>Sufle</span><span class="price">120 TL</span></div>
+<div class="menu-item"><span>Islak Çikolatalı Brownie Kurabiye</span><span class="price">40 TL</span></div>
+<div class="menu-item"><span>Limonlu Cheesecake</span><span class="price">200 TL</span></div>
+<div class="menu-item"><span>Lotuslu Cheesecake</span><span class="price">220 TL</span></div>
+<div class="menu-item"><span>Antep Fıstıklı Cheesecake</span><span class="price">200 TL</span></div>
+</div>
+
+<div class="card">
+<h2>🥐 Poğaça Çeşitleri</h2>
+
+<div class="menu-item"><span>Sade Poğaça</span><span class="price">25 TL</span></div>
+<div class="menu-item"><span>Kaşarlı Poğaça</span><span class="price">25 TL</span></div>
+<div class="menu-item"><span>Peynirli Poğaça</span><span class="price">25 TL</span></div>
+</div>
+<div class="card">
+<h2>🥪 Tost Çeşitleri</h2>
+
+<div class="menu-item"><span>Sucuklu Tost</span><span class="price">200 TL</span></div>
+<div class="menu-item"><span>Kaşarlı Tost</span><span class="price">200 TL</span></div>
+<div class="menu-item"><span>Karışık Tost</span><span class="price">200 TL</span></div>
+
+</div>
+</div>
+
+</body>
+</html>
+</div>
+
+</div>
+
+</body>
+</html>
